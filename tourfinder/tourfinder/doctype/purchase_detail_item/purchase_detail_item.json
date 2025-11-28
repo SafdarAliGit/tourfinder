@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-28 18:55:29.316995",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier",
+  "item_code",
+  "check_in_date",
+  "check_out_date",
+  "qty",
+  "rate",
+  "amount",
+  "po_number",
+  "create_po"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "check_in_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Check In Date"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "check_out_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Check Out Date"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Qty/Days"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "po_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PO Number",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "create_po",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "<span style=\"color:green;\">CREATE PO</span>"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-28 19:52:01.273688",
+ "modified_by": "Administrator",
+ "module": "Tourfinder",
+ "name": "Purchase Detail Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
